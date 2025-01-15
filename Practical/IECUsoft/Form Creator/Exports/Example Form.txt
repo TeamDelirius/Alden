@@ -1,0 +1,51 @@
+##### DEPENDANCIES #####
+
+import InputField from '../FormsUI/TextField/index';
+import SelectField from '../FormsUI/Select/index';
+
+
+##### VARIABLES #####
+
+Input Box Example: TEST__InputBoxExample
+Input Box Example: TEST__InputBoxExample
+Input Box Example: TEST__InputBoxExample
+Input Box Example: TEST__InputBoxExample
+Input Box Example: TEST__InputBoxExample
+Select Field Example: TEST__SelectFieldExample
+
+
+##### CODE #####
+
+<Grid item xs={6}>
+  <InputField name="TEST__InputBoxExample" label="Input Box Example" />
+</Grid>
+
+<Grid item xs={6}>
+  <InputField name="TEST__InputBoxExample" label="Input Box Example" />
+</Grid>
+
+<Grid item xs={6}>
+  <InputField name="TEST__InputBoxExample" label="Input Box Example" />
+</Grid>
+
+<Grid item xs={6}>
+  <InputField name="TEST__InputBoxExample" label="Input Box Example" />
+</Grid>
+
+<Grid item xs={6}>
+  <InputField name="TEST__InputBoxExample" label="Input Box Example" />
+</Grid>
+
+<Grid item xs={4}>
+  <SelectField
+    name="TEST__SelectFieldExample"
+    label="Select Field Example"
+  >
+    <MenuItem value="Value1">Text1</MenuItem>
+    <MenuItem value="Value2">Text2</MenuItem>
+    <MenuItem value="Value3">Text3</MenuItem>
+  </SelectField>
+</Grid><Grid item xs={2}>
+  <InputField name="TEST__SelectFieldExample" label=" " />
+</Grid>
+

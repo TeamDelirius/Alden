@@ -1,0 +1,60 @@
+{
+    "Author" : "Alden Hilton",
+    "Name" : "Example Form",
+    "Prefix" : "TEST",
+    "Parts" : [
+        {
+            "Label" : "Input Box Example",
+            "VarName" : "InputBoxExample",
+            "Style" : {
+                "Type" : "InputField",
+                "Details" : []
+                }
+        },
+        {
+            "Label" : "Input Box Example",
+            "VarName" : "InputBoxExample",
+            "Style" : {
+                "Type" : "InputField",
+                "Details" : []
+                }
+        },
+        {
+            "Label" : "Input Box Example",
+            "VarName" : "InputBoxExample",
+            "Style" : {
+                "Type" : "InputField",
+                "Details" : []
+                }
+        },
+        {
+            "Label" : "Input Box Example",
+            "VarName" : "InputBoxExample",
+            "Style" : {
+                "Type" : "InputField",
+                "Details" : []
+                }
+        },
+        {
+            "Label" : "Input Box Example",
+            "VarName" : "InputBoxExample",
+            "Style" : {
+                "Type" : "InputField",
+                "Details" : []
+                }
+        },
+        
+        {
+            "Label" : "Select Field Example",
+            "VarName" : "SelectFieldExample",
+            "Style" : {
+                "Type" : "SelectField",
+                "Details" : [
+                    ["Text1", "Value1"],
+                    ["Text2", "Value2"],
+                    ["Text3", "Value3"]
+                    ]
+                }
+        }
+    ]
+}
